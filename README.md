@@ -15,5 +15,3 @@ Our goals:
 == Files:
 * belongs_to user
 * Simple interface for upload/index/download
-
-That's it.

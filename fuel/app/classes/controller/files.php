@@ -17,7 +17,11 @@ class Controller_Files extends Controller
 			Upload::process();
 			if(Upload::get_files('content'))
 			{
+				Upload::save(APPPATH.'uploads', array('content'));
 				$data['alerts'] = array(array('success', 'File uploaded successfully.'));
+
+				$file= Upload::get_files();
+				$data['file'] = $file[0];
 			}
 		}
 

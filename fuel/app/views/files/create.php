@@ -35,6 +35,10 @@
 				<?php endforeach; ?>
 			</div>
 		<?php endif; ?>
+		<?php if(isset($file))
+		{
+			echo $file['name'].":".$file['size'];
+		}?>
 		<h2>Upload a File</h2>
 		<form method='post' class='form form-horizontal' enctype='multipart/form-data'>
 			<div class='form-inputs'>

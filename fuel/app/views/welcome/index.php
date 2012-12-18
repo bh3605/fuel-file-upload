@@ -43,6 +43,7 @@
 		<div class="hero-unit">
 			<h1>Welcome!</h1>
 			<p>You have successfully installed the FuelPHP Framework.</p>
+			<p>You have also successfully committed and deployed your first change!</p>
 			<p><a class="btn btn-primary btn-large" href="http://docs.fuelphp.com">Read the Docs</a></p>
 		</div>
 		<div class="row">
